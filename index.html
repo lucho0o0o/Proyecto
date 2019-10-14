@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto Llamados HTTP</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body background="imagenes/digimon.jpg">
+    <div class="container">
+        <div id="informacion"></div>
+
+        <div class="row">
+            <div class="col s6 " id="div5">Cambiar Perro</div>
+            <div class="col s6 " ondblclick="cambiarColorColumnas('green')">Cambiar a Verde</div>
+            <div class="col s6 " onclick="cambiarColorColumnas('blue')">Cambiar a Azul</div>
+            <div class="col s6 " onmouseover="cambiarColorColumnas('purple')">Cambiar a morado</div>
+        </div>
+        <div class="col s6 ">
+            <img class="responsive-img" id="miimagen">
+        </div>
+    </div>
+
+
+    </div>
+    <div class="card-panel indigo  lighten-2">
+        <div class="row">
+            <div class="col s6"><strong>Universidad de Caldas</strong><br>Manizales</div>
+            <div class="col s6">Llamados HTTP GET a API externas usando JS ECS6<br> API Utilizada: https://digimon-api.herokuapp.com/</div>
+        </div>
+
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="js/perrito.js"></script>
+    <script src="js/selectores.js"></script>
+</body>
+
+</html>
